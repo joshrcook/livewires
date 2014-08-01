@@ -11,6 +11,8 @@
 
 // Vendor styles. Include your third-party styles here.
 @import "../vendor/normalize";
+@import "../vendor/bootstrap/grid";
+@import "../vendor/bootstrap/utilities";
 
 // Element styles
 @import "../elements/typography/paragraphs";
@@ -59,3 +61,16 @@
 @import "../theme/tables";
 @import "../theme/buttons";
 @import "../theme/special-fields";
+
+// Page styles
+@import "../pages/guide";
+
+// Atomic styles
+@import "../atomic/resets";
+@import "../atomic/global";
+@import "../atomic/atoms";
+@import "../atomic/molecules";
+@import "../atomic/organisms";
+@import "../atomic/templates";
+@import "../atomic/pages";
+@import "../atomic/resets";
