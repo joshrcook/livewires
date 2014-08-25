@@ -7,4 +7,4 @@ guard 'slim', :input_root => 'source/templates', :output_root => 'httpdocs', :sl
   watch(%r'^.+\.slim$')
 end
 
-guard 'coffeescript', :input => 'source/coffee', :output => 'httpdocs/js'
+# guard 'coffeescript', :input => 'source/coffee', :output => 'httpdocs/js'
